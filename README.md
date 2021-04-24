@@ -7,6 +7,8 @@
 
 I have created 3-tier application in Azure using Terraform. Three modules are created for each tier.
 
+Below is the architecture diagram of the application -
+
 ![alt text](https://github.com/savageidrish/KPMG_Challange1/blob/main/Architecture-Diagram.PNG)
 
 
