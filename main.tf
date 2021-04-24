@@ -18,10 +18,10 @@ resource "azurerm_virtual_network" "testvnet" {
 }
 
 module "tier1"
-  source              = "./Application_tiers/Tier1"
+  source              = "./Application_tier/Tier1"
   
 module "tier2"
-  source              = "./Application_tiers/Tier2"
+  source              = "./Application_tier/Tier2"
   
 module "tier3"
-  source              = "./Application_tiers/Tier3"
+  source              = "./Application_tier/Tier3"
